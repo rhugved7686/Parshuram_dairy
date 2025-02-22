@@ -5,7 +5,7 @@ import type React from "react"
 import { useRef, useState } from "react"
 import emailjs from "@emailjs/browser"
 
-export const ContactUs = () => {
+const ContactUs = () => {
   const form = useRef<HTMLFormElement>(null)
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<string | null>(null)
@@ -377,5 +377,5 @@ export const ContactUs = () => {
   )
 }
 
-export default ContactUs
+export default ContactUs;
 

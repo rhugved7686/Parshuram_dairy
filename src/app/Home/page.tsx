@@ -709,7 +709,7 @@ const Home = () => {
   </div>
   {/* Product End */}
   {/* Team Start */}
-  <div className="container-xxl py-5">
+  {/* <div className="container-xxl py-5">
     <div className="container">
       <div
         className="text-center mx-auto wow fadeInUp"
@@ -817,7 +817,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
   {/* Team End */}
   {/* Testimonial Start */}
   <div className="container-xxl py-5">
@@ -952,16 +952,16 @@ const Home = () => {
         </div>
         <div className="col-lg-3 col-md-6">
           <h5 className="text-white mb-4">Business Hours</h5>
-          <p className="mb-1">Monday - Friday</p>
-          <h6 className="text-light">09:00 am - 07:00 pm</h6>
-          <p className="mb-1">Saturday</p>
+          <p className="mb-1">Monday - Sunday</p>
+          <h6 className="text-light">07:00 am - 10:00 pm</h6>
+          {/* <p className="mb-1">Saturday</p>
           <h6 className="text-light">09:00 am - 12:00 pm</h6>
           <p className="mb-1">Sunday</p>
-          <h6 className="text-light">Closed</h6>
+          <h6 className="text-light">Closed</h6> */}
         </div>
         <div className="col-lg-3 col-md-6">
           <h5 className="text-white mb-4">Newsletter</h5>
-          <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <p>Stay updated with the latest offers and updates from us.</p>
           <div className="position-relative w-100">
             <input
               className="form-control bg-transparent w-100 py-3 ps-4 pe-5"

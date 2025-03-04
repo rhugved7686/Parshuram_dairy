@@ -179,7 +179,7 @@ const Products = () => {
         >
           <div className="product-item">
             <div className="position-relative">
-              <img className="img-fluid" src="img/product-2.jpg" alt="" />
+              <img className="img-fluid pt-3 " src="img/product-2.jpg" alt="" />
               <div className="product-overlay">
                 <a
                   className="btn btn-square btn-secondary rounded-circle m-1"
@@ -196,8 +196,8 @@ const Products = () => {
               </div>
             </div>
             <div className="text-center p-4">
-              <a className="d-block h5" href="">
-                Fresh Meat
+              <a className="d-block h5 pt-5" href="">
+              Cold Drink
               </a>
               <span className="text-primary me-1">Rs.19.00</span>
               <span className="text-decoration-line-through">Rs.29.00</span>
@@ -395,16 +395,13 @@ const Products = () => {
         </div>
         <div className="col-lg-3 col-md-6">
           <h5 className="text-white mb-4">Business Hours</h5>
-          <p className="mb-1">Monday - Friday</p>
-          <h6 className="text-light">09:00 am - 07:00 pm</h6>
-          <p className="mb-1">Saturday</p>
-          <h6 className="text-light">09:00 am - 12:00 pm</h6>
-          <p className="mb-1">Sunday</p>
-          <h6 className="text-light">Closed</h6>
+          <p className="mb-1">Monday - Sunday</p>
+          <h6 className="text-light">07:00 am - 10:00 pm</h6>
+          
         </div>
         <div className="col-lg-3 col-md-6">
           <h5 className="text-white mb-4">Newsletter</h5>
-          <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <p>Stay updated with the latest offers and updates from us.</p>
           <div className="position-relative w-100">
             <input
               className="form-control bg-transparent w-100 py-3 ps-4 pe-5"
